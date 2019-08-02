@@ -26,7 +26,7 @@
 #import "NSCollection_utils.h"
 #import "LabelColumnCell.h"
 #import "UnifiedCell.h"
-#import "HeaderViewWithMenu.h"
+#import "HeaderViewWIthMenu.h"
 #import "NSString_NV.h"
 #import "NotesTableHeaderCell.h"
 #import "LinkingEditor.h"
