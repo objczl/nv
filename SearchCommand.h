@@ -6,7 +6,7 @@
 //  Copyright 2010 Orange Peel Media Ltd. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 
 @interface SearchCommand : NSScriptCommand {

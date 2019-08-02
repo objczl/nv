@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 David Halter. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 
 @interface NotesTableHeaderCell : NSTableHeaderCell {

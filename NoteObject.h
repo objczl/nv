@@ -21,7 +21,7 @@
     along with Notational Velocity.  If not, see <http://www.gnu.org/licenses/>. */
 
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 #import "NotationController.h"
 #import "BufferUtils.h"
 #import "SynchronizedNoteProtocol.h"

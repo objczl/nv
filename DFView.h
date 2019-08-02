@@ -5,7 +5,7 @@
 //  Created by ElasticThreads on 2/15/11.
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 
 @interface DFView : NSView {

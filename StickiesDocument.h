@@ -16,7 +16,7 @@
      or promote products derived from this software without specific prior written permission. */
 
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 #if __LP64__
 // Needed for compatability with data created by 32bit app

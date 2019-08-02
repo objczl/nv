@@ -19,7 +19,7 @@
 //     distribution.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 //
 // DirectoryLocations is a set of global methods for finding the fixed location

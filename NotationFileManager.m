@@ -26,7 +26,7 @@
 #include <sys/param.h>
 #include <sys/mount.h>
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 #include <openssl/md5.h>
 
 NSString *NotesDatabaseFileName = @"Notes & Settings";

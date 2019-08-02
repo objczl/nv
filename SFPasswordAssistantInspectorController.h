@@ -1,6 +1,6 @@
 // http://www.cocoadev.com/index.pl?PasswordAssistant
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 @class SFPasswordAsstView;
 

@@ -26,7 +26,7 @@
 #import "NotationDirectoryManager.h"
 #import "AlienNoteImporter.h"
 #import "NSString_NV.h"
-#import <WebKit/WebArchive.h>
+@import WebKit;
 #import "GlobalPrefs.h"
 #import "NSData_transformations.h"
 #import "AttributedPlainText.h"

@@ -49,7 +49,7 @@
 //#import "ETScrollView.h"
 #import "NSFileManager+DirectoryLocations.h"
 #import "nvaDevConfig.h"
-#import <Sparkle/SUUpdater.h>
+#import <Sparkle/Sparkle.h>
 
 #define NSApplicationPresentationAutoHideMenuBar (1 <<  2)
 #define NSApplicationPresentationHideMenuBar (1 <<  3)

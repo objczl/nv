@@ -15,9 +15,10 @@
      or promote products derived from this software without specific prior written permission. */
 
 
-#import <Cocoa/Cocoa.h>
-#include <SystemConfiguration/SystemConfiguration.h>
-#import <IOKit/IOMessage.h>
+@import Foundation;
+@import Cocoa;
+@import IOKit;
+@import SystemConfiguration;
 #import "SyncServiceSessionProtocol.h"
 
 @class NotationPrefs;

@@ -26,7 +26,7 @@
 #include <zlib.h>
 #include <openssl/bio.h>
 
-#import <WebKit/WebKit.h>
+@import WebKit;
 
 @implementation NSData (NVUtilities)
 

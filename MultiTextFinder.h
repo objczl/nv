@@ -12,7 +12,7 @@
      or promote products derived from this software without specific prior written permission. */
 
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 #if MAC_OS_X_VERSION_MAX_ALLOWED < MAC_OS_X_VERSION_10_7
 #define Backward NO

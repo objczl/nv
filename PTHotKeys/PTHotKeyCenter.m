@@ -9,7 +9,7 @@
 #import "PTHotKeyCenter.h"
 #import "PTHotKey.h"
 #import "PTKeyCombo.h"
-#import <Carbon/Carbon.h>
+@import Carbon;
 
 @interface PTHotKeyCenter (Private)
 - (void)_updateEventHandler;

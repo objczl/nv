@@ -5,7 +5,7 @@
 //  Created by elasticthreads on 3/15/11.
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 
 @interface ETContentView : NSView {

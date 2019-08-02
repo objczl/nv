@@ -7,7 +7,7 @@
 //	Modified by elasticthreads 10/19/2010
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 
 @interface ETTransparentScroller : NSScroller {

@@ -6,7 +6,7 @@
 //  All code is provided under the New BSD license.
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 #import "ETTransparentButton.h"
 
 @interface ETTransparentButtonCell : NSButtonCell 

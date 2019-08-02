@@ -6,7 +6,7 @@
 //  Copyright 2009 Apple Inc.. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 
 @interface NSString (BSJSONAdditions)

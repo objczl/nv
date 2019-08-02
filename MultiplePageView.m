@@ -38,7 +38,7 @@
  OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 #import "MultiplePageView.h"
 #import "GlobalPrefs.h"
 #import "NoteObject.h"
