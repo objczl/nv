@@ -776,6 +776,7 @@
 		5CF96CD9132EA1970079B3FD /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = de; path = de.lproj/URLGetter.nib; sourceTree = "<group>"; };
 		5CFF810713A52EE2008A93A3 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5CFF810913A536F7008A93A3 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/Preferences.xib; sourceTree = "<group>"; };
+		7134C15122F4F7BB0000104D /* nvALT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nvALT.entitlements; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* nvALT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nvALT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93099627138BD61000368C45 /* tp2md.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = tp2md.rb; sourceTree = "<group>"; };
@@ -1250,6 +1251,7 @@
 		29B97314FDCFA39411CA2CEA /* Notation */ = {
 			isa = PBXGroup;
 			children = (
+				7134C15122F4F7BB0000104D /* nvALT.entitlements */,
 				5C6802051DAD6CCA00713DF0 /* disabled/old classes */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -2104,14 +2106,17 @@
 				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = nvALT.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 47TRS7H4BH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				LD_RUNPATH_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
-				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = net.elasticthreads.nv;
 			};
 			name = Development;
@@ -2320,9 +2325,11 @@
 				DEVELOPMENT_TEAM = 47TRS7H4BH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				LD_RUNPATH_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
-				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = net.elasticthreads.nv;
 			};
 			name = ForBuilding;
