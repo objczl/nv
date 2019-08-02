@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14854.2" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14854.2"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -12,11 +13,11 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <window title="nvALT" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="NotationWindow" animationBehavior="default" id="1212" userLabel="notation">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" unifiedTitleAndToolbar="YES"/>
+        <window title="nvALT" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="NotationWindow" animationBehavior="default" id="1212" userLabel="notation">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="280" y="392" width="397" height="464"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
             <value key="minSize" type="size" width="213" height="107"/>
             <view key="contentView" id="1213" customClass="ETContentView">
                 <rect key="frame" x="0.0" y="0.0" width="397" height="464"/>
@@ -734,7 +735,7 @@ CA
             <rect key="frame" x="0.0" y="0.0" width="147" height="102"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField verticalHuggingPriority="750" id="342">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="342">
                     <rect key="frame" x="-3" y="27" width="153" height="46"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Nenhuma Nota Selecionada" id="1102">
@@ -754,12 +755,12 @@ CA
             <rect key="frame" x="0.0" y="0.0" width="381" height="24"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
             <subviews>
-                <textField verticalHuggingPriority="750" id="1067" customClass="DualField">
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1067" customClass="DualField">
                     <rect key="frame" x="0.0" y="1" width="381" height="23"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="1103">
                         <font key="font" metaFont="system"/>
-                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                     <connections>
@@ -769,11 +770,11 @@ CA
                         <outlet property="notesTable" destination="1222" id="1235"/>
                     </connections>
                 </textField>
-                <tokenField verticalHuggingPriority="750" id="1274" userLabel="Word Count Token" customClass="WordCountToken">
+                <tokenField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1274" userLabel="Word Count Token" customClass="WordCountToken">
                     <rect key="frame" x="206" y="6" width="145" height="14"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                     <tokenFieldCell key="cell" controlSize="small" alignment="right" allowsEditingTextAttributes="YES" id="1275">
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="message" size="11"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </tokenFieldCell>
@@ -787,13 +788,13 @@ CA
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="454" y="634" width="387" height="106"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
-            <value key="minSize" type="size" width="213" height="107"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
+            <value key="minSize" type="size" width="213" height="106"/>
             <view key="contentView" id="1080">
                 <rect key="frame" x="0.0" y="0.0" width="387" height="106"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" id="1081">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1081">
                         <rect key="frame" x="239" y="12" width="134" height="32"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <buttonCell key="cell" type="push" title="Encerrar Agora" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="1104">
@@ -807,11 +808,11 @@ DQ
                             <action selector="syncWaitQuit:" target="213" id="1086"/>
                         </connections>
                     </button>
-                    <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" style="spinning" id="1082">
+                    <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" bezeled="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="1082">
                         <rect key="frame" x="20" y="54" width="32" height="32"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </progressIndicator>
-                    <textField verticalHuggingPriority="750" id="1083">
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1083">
                         <rect key="frame" x="70" y="60" width="306" height="20"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Aguardando término do envio das alterações…" id="1105">
@@ -822,6 +823,7 @@ DQ
                     </textField>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="140" y="147"/>
         </window>
         <menu title="barMenu" id="1123">
             <items>
@@ -1025,13 +1027,14 @@ CA
                 <rect key="frame" x="0.0" y="0.0" width="399" height="304"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textView drawsBackground="NO" importsGraphics="NO" richText="NO" usesFontPanel="YES" findStyle="panel" allowsUndo="YES" spellingCorrection="YES" id="1218" customClass="LinkingEditor">
+                    <textView drawsBackground="NO" importsGraphics="NO" richText="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" allowsUndo="YES" spellingCorrection="YES" id="1218" customClass="LinkingEditor">
                         <rect key="frame" x="0.0" y="0.0" width="399" height="304"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         <size key="minSize" width="399" height="304"/>
                         <size key="maxSize" width="781" height="10000000"/>
-                        <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                         <connections>
                             <outlet property="controlField" destination="1067" id="1239"/>
                             <outlet property="delegate" destination="213" id="1240"/>
@@ -1040,13 +1043,12 @@ CA
                         </connections>
                     </textView>
                 </subviews>
-                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             </clipView>
-            <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" arrowsPosition="none" doubleValue="1" horizontal="YES" id="1220">
+            <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="1220">
                 <rect key="frame" x="-100" y="-100" width="87" height="18"/>
                 <autoresizingMask key="autoresizingMask"/>
             </scroller>
-            <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" arrowsPosition="none" doubleValue="1" horizontal="NO" id="1219">
+            <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="1219">
                 <rect key="frame" x="383" y="0.0" width="16" height="304"/>
                 <autoresizingMask key="autoresizingMask"/>
             </scroller>
@@ -1063,7 +1065,7 @@ CA
                 <subviews>
                     <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" autosaveColumns="NO" rowHeight="14" headerView="1225" id="1222" customClass="NotesTableView">
                         <rect key="frame" x="0.0" y="0.0" width="399" height="136"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <size key="intercellSpacing" width="3" height="2"/>
                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
@@ -1075,11 +1077,11 @@ CA
                     </tableView>
                 </subviews>
             </clipView>
-            <scroller key="horizontalScroller" hidden="YES" autoresizesSubviews="NO" focusRingType="none" verticalHuggingPriority="750" arrowsPosition="none" horizontal="YES" id="1224">
+            <scroller key="horizontalScroller" hidden="YES" autoresizesSubviews="NO" wantsLayer="YES" focusRingType="none" verticalHuggingPriority="750" horizontal="YES" id="1224">
                 <rect key="frame" x="-100" y="-100" width="382" height="15"/>
                 <autoresizingMask key="autoresizingMask"/>
             </scroller>
-            <scroller key="verticalScroller" autoresizesSubviews="NO" focusRingType="none" verticalHuggingPriority="750" arrowsPosition="none" horizontal="NO" id="1223">
+            <scroller key="verticalScroller" autoresizesSubviews="NO" wantsLayer="YES" focusRingType="none" verticalHuggingPriority="750" horizontal="NO" id="1223">
                 <rect key="frame" x="383" y="17" width="16" height="136"/>
                 <autoresizingMask key="autoresizingMask"/>
             </scroller>
