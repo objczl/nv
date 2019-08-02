@@ -32,10 +32,6 @@
 }
 
 - (IBAction)formatSelectorChanged:(id)sender {
-	NSSavePanel *panel = (NSSavePanel *)[sender window];
-	
-	NSInteger storageFormat = [[formatSelectorPopup selectedItem] tag];
-//	[panel setRequiredFileType:[NotationPrefs pathExtensionForFormat:storageFormat]];
 }
 
 void(^exportHandler)(NSInteger) =^(NSInteger returnCode) {
