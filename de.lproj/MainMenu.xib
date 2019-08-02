@@ -736,12 +736,11 @@ CA
             </connections>
         </customObject>
         <customView id="341" userLabel="editorStatus" customClass="EmptyView">
-            <rect key="frame" x="0.0" y="0.0" width="147" height="102"/>
+            <rect key="frame" x="0.0" y="0.0" width="147" height="52"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="342">
-                    <rect key="frame" x="0.0" y="20" width="147" height="46"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="342">
+                    <rect key="frame" x="2" y="4" width="143" height="44"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Keine Notiz ausgewählt" id="1088">
                         <font key="font" size="18" name="Helvetica"/>
                         <color key="textColor" white="0.49596774580000003" alpha="1" colorSpace="calibratedWhite"/>
@@ -749,10 +748,17 @@ CA
                     </textFieldCell>
                 </textField>
             </subviews>
+            <constraints>
+                <constraint firstItem="342" firstAttribute="leading" secondItem="341" secondAttribute="leading" constant="4" id="1Ev-V5-bdt"/>
+                <constraint firstAttribute="bottom" secondItem="342" secondAttribute="bottom" constant="4" id="6Vy-HY-49X"/>
+                <constraint firstAttribute="trailing" secondItem="342" secondAttribute="trailing" constant="4" id="LdX-OD-mfz"/>
+                <constraint firstItem="342" firstAttribute="top" secondItem="341" secondAttribute="top" constant="4" id="hm0-N5-SzJ"/>
+            </constraints>
             <connections>
                 <outlet property="labelText" destination="342" id="350"/>
                 <outlet property="nextKeyView" destination="1067" id="1076"/>
             </connections>
+            <point key="canvasLocation" x="140" y="-48"/>
         </customView>
         <customObject id="452" userLabel="Font Manager" customClass="NSFontManager"/>
         <customView id="1066" userLabel="fieldcustomview">
@@ -795,38 +801,68 @@ CA
             <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
             <value key="minSize" type="size" width="213" height="107"/>
             <view key="contentView" id="1080">
-                <rect key="frame" x="0.0" y="0.0" width="353" height="107"/>
+                <rect key="frame" x="0.0" y="0.0" width="353" height="108"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1081">
-                        <rect key="frame" x="179" y="12" width="160" height="32"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <buttonCell key="cell" type="push" title="Jetzt beenden" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="1090">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                            <string key="keyEquivalent" base64-UTF8="YES">
+                    <stackView distribution="fill" orientation="vertical" alignment="trailing" spacing="15" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TfK-5I-MY7">
+                        <rect key="frame" x="20" y="20" width="313" height="68"/>
+                        <subviews>
+                            <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KUb-0m-LsL">
+                                <rect key="frame" x="0.0" y="36" width="313" height="32"/>
+                                <subviews>
+                                    <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="1082">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                    </progressIndicator>
+                                    <textField horizontalHuggingPriority="249" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="1083">
+                                        <rect key="frame" x="50" y="16" width="265" height="16"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Warte auf Hochladen der Änderungen…" id="1091">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </subviews>
+                                <visibilityPriorities>
+                                    <integer value="1000"/>
+                                    <integer value="1000"/>
+                                </visibilityPriorities>
+                                <customSpacing>
+                                    <real value="3.4028234663852886e+38"/>
+                                    <real value="3.4028234663852886e+38"/>
+                                </customSpacing>
+                            </stackView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1081">
+                                <rect key="frame" x="192" y="-7" width="127" height="32"/>
+                                <buttonCell key="cell" type="push" title="Jetzt beenden" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="1090">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
 DQ
 </string>
-                        </buttonCell>
-                        <connections>
-                            <action selector="syncWaitQuit:" target="213" id="1086"/>
-                        </connections>
-                    </button>
-                    <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" bezeled="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="1082">
-                        <rect key="frame" x="20" y="55" width="32" height="32"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </progressIndicator>
-                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1083">
-                        <rect key="frame" x="70" y="48" width="266" height="32"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Warte auf Hochladen der Änderungen…" id="1091">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="syncWaitQuit:" target="213" id="1086"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <visibilityPriorities>
+                            <integer value="1000"/>
+                            <integer value="1000"/>
+                        </visibilityPriorities>
+                        <customSpacing>
+                            <real value="3.4028234663852886e+38"/>
+                            <real value="3.4028234663852886e+38"/>
+                        </customSpacing>
+                    </stackView>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="TfK-5I-MY7" secondAttribute="bottom" constant="20" id="J60-dS-MMl"/>
+                    <constraint firstAttribute="trailing" secondItem="TfK-5I-MY7" secondAttribute="trailing" constant="20" id="Nhh-Ao-8NV"/>
+                    <constraint firstItem="TfK-5I-MY7" firstAttribute="top" secondItem="1080" secondAttribute="top" constant="20" id="jR0-Ie-UlW"/>
+                    <constraint firstItem="TfK-5I-MY7" firstAttribute="leading" secondItem="1080" secondAttribute="leading" constant="20" id="qEd-Kj-wd8"/>
+                </constraints>
             </view>
+            <point key="canvasLocation" x="140" y="147"/>
         </window>
         <menu title="barMenu" id="1124">
             <items>
@@ -1028,7 +1064,7 @@ CA
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <clipView key="contentView" drawsBackground="NO" id="tRX-Gz-su9">
                 <rect key="frame" x="0.0" y="0.0" width="399" height="153"/>
-                <autoresizingMask key="autoresizingMask"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" autosaveColumns="NO" rowHeight="14" headerView="1233" id="1230" customClass="NotesTableView">
                         <rect key="frame" x="0.0" y="0.0" width="399" height="136"/>
@@ -1043,6 +1079,7 @@ CA
                         </connections>
                     </tableView>
                 </subviews>
+                <nil key="backgroundColor"/>
             </clipView>
             <scroller key="horizontalScroller" hidden="YES" autoresizesSubviews="NO" wantsLayer="YES" focusRingType="none" verticalHuggingPriority="750" horizontal="YES" id="1232">
                 <rect key="frame" x="-100" y="-100" width="382" height="15"/>
@@ -1056,13 +1093,14 @@ CA
                 <rect key="frame" x="0.0" y="0.0" width="399" height="17"/>
                 <autoresizingMask key="autoresizingMask"/>
             </tableHeaderView>
+            <point key="canvasLocation" x="139" y="730"/>
         </scrollView>
         <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="1225" userLabel="Scroll View - Linking Editor" customClass="ETNoteScrollView">
             <rect key="frame" x="0.0" y="0.0" width="399" height="304"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <clipView key="contentView" drawsBackground="NO" id="6t3-Ya-xuB">
                 <rect key="frame" x="0.0" y="0.0" width="399" height="304"/>
-                <autoresizingMask key="autoresizingMask"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <textView drawsBackground="NO" importsGraphics="NO" richText="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" allowsUndo="YES" spellingCorrection="YES" id="1226" customClass="LinkingEditor">
                         <rect key="frame" x="0.0" y="0.0" width="399" height="304"/>
@@ -1092,6 +1130,7 @@ CA
             <connections>
                 <outlet property="nextKeyView" destination="1067" id="1251"/>
             </connections>
+            <point key="canvasLocation" x="139" y="432"/>
         </scrollView>
         <userDefaultsController representsSharedInstance="YES" id="1287"/>
     </objects>
