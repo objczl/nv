@@ -5,6 +5,7 @@
 //  Created by Christian Tietze on 15.10.10.
 //  Copyright 2010
 
+@import Foundation;
 @import Cocoa;
 @import WebKit;
 #import "MAAttachedWindow.h"
