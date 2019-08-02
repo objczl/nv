@@ -2104,12 +2104,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = nvALT.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 47TRS7H4BH;
+				DEVELOPMENT_TEAM = E54RQ2YKR5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2117,7 +2118,8 @@
 					"@executable_path/../Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
-				PRODUCT_BUNDLE_IDENTIFIER = net.elasticthreads.nv;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.roman.nv;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Development;
 		};
@@ -2319,10 +2321,11 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = nvALT.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 47TRS7H4BH;
+				DEVELOPMENT_TEAM = E54RQ2YKR5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2330,7 +2333,7 @@
 					"@executable_path/../Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
-				PRODUCT_BUNDLE_IDENTIFIER = net.elasticthreads.nv;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.roman.nv;
 			};
 			name = ForBuilding;
 		};
