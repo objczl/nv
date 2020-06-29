@@ -15,7 +15,7 @@
      or promote products derived from this software without specific prior written permission. */
 
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 typedef enum { NoIcon, DownArrowIcon, SynchronizingIcon, AlertIcon } TitleBarButtonIcon;
 

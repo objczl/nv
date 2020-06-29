@@ -5,8 +5,9 @@
 //  Created by Christian Tietze on 15.10.10.
 //  Copyright 2010
 
-#import <Cocoa/Cocoa.h>
-#import <WebKit/WebKit.h>
+@import Foundation;
+@import Cocoa;
+@import WebKit;
 #import "MAAttachedWindow.h"
 
 @class AppController;

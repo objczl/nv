@@ -3,7 +3,7 @@
 //  BSJSONAdditions
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @interface BSJSONEncoder : NSObject
 + (NSString *)jsonStringForValue:(id)value withIndentLevel:(NSInteger)level;

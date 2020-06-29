@@ -30,7 +30,7 @@
 
 
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 #import "LinkingEditor.h"
 

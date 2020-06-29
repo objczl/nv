@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		210A10690B66720F005BE981 /* BookmarksTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 210A10670B66720F005BE981 /* BookmarksTable.m */; };
-		210C07530B6BF0A2005D23A8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210C07230B6BF0A1005D23A8 /* WebKit.framework */; };
 		2110C0D90B65F09F00F5C52E /* SavedSearches.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2110C0CF0B65F09E00F5C52E /* SavedSearches.nib */; };
 		211344450B354E000081B064 /* idea_ossl.c in Sources */ = {isa = PBXBuildFile; fileRef = 211344440B354E000081B064 /* idea_ossl.c */; };
 		211344C00B3551BD0081B064 /* BlorPasswordRetriever.nib in Resources */ = {isa = PBXBuildFile; fileRef = 211344BA0B3551BD0081B064 /* BlorPasswordRetriever.nib */; };
@@ -35,8 +34,6 @@
 		213FAD530B3C6B52004C74BD /* FSExchangeObjectsCompat.c in Sources */ = {isa = PBXBuildFile; fileRef = 213FAD520B3C6B52004C74BD /* FSExchangeObjectsCompat.c */; };
 		2143D2F410E953F500127EA6 /* SnapBackPressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2143D2F210E953F400127EA6 /* SnapBackPressed.tif */; };
 		2143D3D910E987B100127EA6 /* Pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 2143D3D810E987B100127EA6 /* Pencil.png */; };
-		214493F60ADB892C00E2A2B6 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214493E70ADB892C00E2A2B6 /* CoreServices.framework */; };
-		214495030ADC7C8D00E2A2B6 /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214494F80ADC7C8D00E2A2B6 /* SecurityInterface.framework */; };
 		214495130ADC8A6600E2A2B6 /* PassphrasePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 214495120ADC8A6600E2A2B6 /* PassphrasePicker.m */; };
 		21469C8C0BEBA6A10094835F /* TemporaryFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 21469C8A0BEBA6A10094835F /* TemporaryFileCache.m */; };
 		215309F412E4E92300AF2739 /* DiskUUIDEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 215309F312E4E92300AF2739 /* DiskUUIDEntry.m */; };
@@ -60,14 +57,11 @@
 		218D43330AA2ABC600F36CCA /* NotesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2191930209CFBEBD00586B15 /* NotesTableView.m */; };
 		21918FD009C49B2500586B15 /* EmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21918FCE09C49B2400586B15 /* EmptyView.m */; };
 		219190F109C4A60700586B15 /* DualField.m in Sources */ = {isa = PBXBuildFile; fileRef = 219190F009C4A60700586B15 /* DualField.m */; };
-		2191926709C52AA600586B15 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2191926609C52AA600586B15 /* libz.dylib */; };
 		219192D409CFBC8800586B15 /* NoteAttributeColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 219192D309CFBC8700586B15 /* NoteAttributeColumn.m */; };
 		2191982209D607C600586B15 /* PrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2191982109D607C600586B15 /* PrefsWindowController.m */; };
 		219588D20961D7F200972B8C /* LinkingEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 219588D10961D7F200972B8C /* LinkingEditor.m */; };
 		219739FB0AFE42A10046683E /* PassphraseRetriever.m in Sources */ = {isa = PBXBuildFile; fileRef = 219739FA0AFE42A10046683E /* PassphraseRetriever.m */; };
-		21973FF10B0060C80046683E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21973FBC0B0060C80046683E /* Security.framework */; };
 		219D1BB3110EA66A005E7DF5 /* TBAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = 219D1BB2110EA66A005E7DF5 /* TBAlert.png */; };
-		219D254A1113FE34005E7DF5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219D25491113FE34005E7DF5 /* SystemConfiguration.framework */; };
 		219FD3160B2CC655004E132B /* LinkingEditor_Indentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 219FD3150B2CC655004E132B /* LinkingEditor_Indentation.m */; };
 		219FD63E0B309B69004E132B /* BlorPasswordRetriever.m in Sources */ = {isa = PBXBuildFile; fileRef = 219FD63D0B309B69004E132B /* BlorPasswordRetriever.m */; };
 		21A2F95E09DF3FDC001AF0B5 /* NotationPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2F95D09DF3FDC001AF0B5 /* NotationPrefs.m */; };
@@ -82,14 +76,12 @@
 		21B1BC361104D20E0004A7D0 /* InvocationRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B1BC351104D20E0004A7D0 /* InvocationRecorder.m */; };
 		21B1C172110764570004A7D0 /* statusError.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B1C16F110764570004A7D0 /* statusError.png */; };
 		21B548FA112F307E00E163A1 /* NotationDirectoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B548F8112F307E00E163A1 /* NotationDirectoryManager.m */; };
-		21B54C021134F2E800E163A1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B54C011134F2E800E163A1 /* IOKit.framework */; };
 		21B64A2612E61FA700D87EFC /* LabelColumnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B64A2512E61FA700D87EFC /* LabelColumnCell.m */; };
 		21B64C4E12E62A5700D87EFC /* UnifiedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B64C4D12E62A5700D87EFC /* UnifiedCell.m */; };
 		21BD2ED110DAF31500BA3DF6 /* LinearDividerShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD2ECF10DAF31500BA3DF6 /* LinearDividerShader.m */; };
 		21BD2F3610DAF61700BA3DF6 /* SplitViewDimple.tif in Resources */ = {isa = PBXBuildFile; fileRef = 21BD2F3510DAF61700BA3DF6 /* SplitViewDimple.tif */; };
 		21C0F8A212C7E7160068693F /* Fonts & Colors.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 21C0F8A112C7E7160068693F /* Fonts & Colors.tiff */; };
 		21C737950B50C73E0048C08A /* MultiplePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C737940B50C73E0048C08A /* MultiplePageView.m */; };
-		21D583620B78F0CC00245E29 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D5834D0B78F0CC00245E29 /* ApplicationServices.framework */; };
 		21D60128098FDB46007440DF /* GlobalPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D60127098FDB46007440DF /* GlobalPrefs.m */; };
 		21D6F7EF12E0C751005C2DA5 /* AppController_Importing.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D6F7EE12E0C751005C2DA5 /* AppController_Importing.m */; };
 		21D6FB4912E104D6005C2DA5 /* NSBezierPath_NV.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D6FB4812E104D6005C2DA5 /* NSBezierPath_NV.m */; };
@@ -113,7 +105,6 @@
 		21F1CD710B3A38DB001FB5F6 /* PTKeyComboPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1CD6C0B3A38DB001FB5F6 /* PTKeyComboPanel.m */; };
 		21F1CD980B3A3F77001FB5F6 /* PTHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1CD970B3A3F77001FB5F6 /* PTHotKey.m */; };
 		21F1CDAD0B3A401F001FB5F6 /* PTKeyCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1CDAC0B3A401F001FB5F6 /* PTKeyCombo.m */; };
-		21F459AD0A92E01D00FB6FFE /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F4599B0A92E01C00FB6FFE /* Carbon.framework */; };
 		21FF94F30B5AD22800DB6A2F /* ExporterManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = 21FF94ED0B5AD22800DB6A2F /* ExporterManager.nib */; };
 		21FF94F70B5AD23B00DB6A2F /* ExporterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FF94F50B5AD23B00DB6A2F /* ExporterManager.m */; };
 		57F27F7B11973A7F00C63ACF /* Notation.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 57F27F7A11973A7F00C63ACF /* Notation.sdef */; };
@@ -123,10 +114,6 @@
 		5C1830CD132EA687005E2210 /* SaveHTMLPreview.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1830CF132EA687005E2210 /* SaveHTMLPreview.nib */; };
 		5C2CC18A134989D7006FFE56 /* nvMenuDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C2CC189134989D7006FFE56 /* nvMenuDark.png */; };
 		5C2FAD2B1333970200FBFD34 /* ETScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2CD036132ED47900CA0D7C /* ETScrollView.m */; };
-		5C367EE91DA2C06F0043C8EC /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C367EE81DA2C06F0043C8EC /* libcrypto.a */; };
-		5C367F3B1DA2C1470043C8EC /* libcrypto.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C367EE81DA2C06F0043C8EC /* libcrypto.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5C367F3D1DA2C2B20043C8EC /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C367F3C1DA2C2B20043C8EC /* libssl.a */; };
-		5C367F3E1DA2C2C30043C8EC /* libssl.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C367F3C1DA2C2B20043C8EC /* libssl.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5C38E2C414223D6900131682 /* ETOverlayScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E2C314223D6900131682 /* ETOverlayScroller.m */; };
 		5C43669B1DA268500086FF84 /* Excruciatingly Useful Shortcuts.nvhelp in Resources */ = {isa = PBXBuildFile; fileRef = 5C4366951DA268500086FF84 /* Excruciatingly Useful Shortcuts.nvhelp */; };
 		5C43669C1DA268500086FF84 /* How does this thing work?.nvhelp in Resources */ = {isa = PBXBuildFile; fileRef = 5C4366971DA268500086FF84 /* How does this thing work?.nvhelp */; };
@@ -227,9 +214,21 @@
 		5CF96E0A132EA29D0079B3FD /* EncodingsManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = 212DCB2F0A6AE38500F74E46 /* EncodingsManager.nib */; };
 		5CF96E0B132EA29D0079B3FD /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219195E409D3A20F00586B15 /* Preferences.xib */; };
 		5CF96E0C132EA29D0079B3FD /* NotationPrefsView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 21A2FA7A09DF64E9001AF0B5 /* NotationPrefsView.nib */; };
+		7134C15322F4FE450000104D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C15222F4FE450000104D /* IOKit.framework */; };
+		7134C15922F4FE8F0000104D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C15822F4FE8F0000104D /* AppKit.framework */; };
+		7134C15B22F4FE9B0000104D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C15A22F4FE9B0000104D /* Foundation.framework */; };
+		7134C15D22F4FEAA0000104D /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C15622F4FE6A0000104D /* SecurityInterface.framework */; };
+		7134C15F22F4FEC30000104D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C15E22F4FEC30000104D /* Cocoa.framework */; };
+		7134C16A22F4FF5D0000104D /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C16922F4FF5D0000104D /* ApplicationServices.framework */; };
+		7134C16B22F4FF790000104D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C16422F4FED70000104D /* Carbon.framework */; };
+		7134C16C22F4FF790000104D /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C16322F4FED70000104D /* CoreServices.framework */; };
+		7134C16D22F4FF790000104D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C16022F4FED70000104D /* SystemConfiguration.framework */; };
+		7134C16E22F4FF790000104D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C16522F4FED70000104D /* WebKit.framework */; };
+		7134C16F22F4FF980000104D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C16622F4FF070000104D /* libz.tbd */; };
+		7134C17022F4FF9A0000104D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C16722F4FF2F0000104D /* libssl.a */; };
+		7134C17122F4FF9C0000104D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134C16822F4FF2F0000104D /* libcrypto.a */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
-		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		93099628138BD61000368C45 /* tp2md.rb in Resources */ = {isa = PBXBuildFile; fileRef = 93099627138BD61000368C45 /* tp2md.rb */; };
 		93365DDF1D9AD651005A230B /* AutoHyperlinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93365DDE1D9AD651005A230B /* AutoHyperlinks.framework */; };
 		93365DE01D9AD6AA005A230B /* AutoHyperlinks.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93365DDE1D9AD651005A230B /* AutoHyperlinks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -280,8 +279,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5C367F3E1DA2C2C30043C8EC /* libssl.a in CopyFiles */,
-				5C367F3B1DA2C1470043C8EC /* libcrypto.a in CopyFiles */,
 				93365DE01D9AD6AA005A230B /* AutoHyperlinks.framework in CopyFiles */,
 				213623FC0B92AA6E008C0830 /* Sparkle.framework in CopyFiles */,
 			);
@@ -309,10 +306,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		210A10660B66720F005BE981 /* BookmarksTable.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BookmarksTable.h; sourceTree = "<group>"; };
 		210A10670B66720F005BE981 /* BookmarksTable.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BookmarksTable.m; sourceTree = "<group>"; };
-		210C07230B6BF0A1005D23A8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
 		2110BADD0B640D2100F5C52E /* BookmarksController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksController.h; sourceTree = "<group>"; };
 		211344430B354E000081B064 /* idea_ossl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea_ossl.h; sourceTree = "<group>"; };
 		211344440B354E000081B064 /* idea_ossl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idea_ossl.c; sourceTree = "<group>"; };
@@ -362,8 +357,6 @@
 		2143D2F210E953F400127EA6 /* SnapBackPressed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = SnapBackPressed.tif; path = Images/SnapBackPressed.tif; sourceTree = "<group>"; };
 		2143D2F310E953F500127EA6 /* SnapBack.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = SnapBack.tif; path = Images/SnapBack.tif; sourceTree = "<group>"; };
 		2143D3D810E987B100127EA6 /* Pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pencil.png; path = Images/Pencil.png; sourceTree = "<group>"; };
-		214493E70ADB892C00E2A2B6 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
-		214494F80ADC7C8D00E2A2B6 /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = /System/Library/Frameworks/SecurityInterface.framework; sourceTree = "<absolute>"; };
 		214495040ADC7F4F00E2A2B6 /* SFPasswordAssistantInspectorController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SFPasswordAssistantInspectorController.h; sourceTree = "<group>"; };
 		2144950D0ADC883000E2A2B6 /* PasswordAssistantButton.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = PasswordAssistantButton.tif; path = Images/PasswordAssistantButton.tif; sourceTree = "<group>"; };
 		2144950E0ADC883000E2A2B6 /* PasswordAssistantButtonPressed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = PasswordAssistantButtonPressed.tif; path = Images/PasswordAssistantButtonPressed.tif; sourceTree = "<group>"; };
@@ -414,7 +407,6 @@
 		21918FCF09C49B2500586B15 /* EmptyView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EmptyView.h; sourceTree = SOURCE_ROOT; };
 		219190EF09C4A60600586B15 /* DualField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DualField.h; sourceTree = "<group>"; };
 		219190F009C4A60700586B15 /* DualField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DualField.m; sourceTree = "<group>"; };
-		2191926609C52AA600586B15 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = /usr/lib/libz.dylib; sourceTree = "<absolute>"; };
 		219192D209CFBC8700586B15 /* NoteAttributeColumn.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NoteAttributeColumn.h; sourceTree = "<group>"; };
 		219192D309CFBC8700586B15 /* NoteAttributeColumn.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NoteAttributeColumn.m; sourceTree = "<group>"; };
 		2191930109CFBEBD00586B15 /* NotesTableView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NotesTableView.h; sourceTree = "<group>"; };
@@ -429,9 +421,7 @@
 		219588D10961D7F200972B8C /* LinkingEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkingEditor.m; sourceTree = "<group>"; };
 		219739F90AFE42A10046683E /* PassphraseRetriever.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PassphraseRetriever.h; sourceTree = "<group>"; };
 		219739FA0AFE42A10046683E /* PassphraseRetriever.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PassphraseRetriever.m; sourceTree = "<group>"; };
-		21973FBC0B0060C80046683E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		219D1BB2110EA66A005E7DF5 /* TBAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TBAlert.png; path = Images/TBAlert.png; sourceTree = "<group>"; };
-		219D25491113FE34005E7DF5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		219FD3140B2CC655004E132B /* LinkingEditor_Indentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkingEditor_Indentation.h; sourceTree = "<group>"; };
 		219FD3150B2CC655004E132B /* LinkingEditor_Indentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkingEditor_Indentation.m; sourceTree = "<group>"; };
 		219FD63C0B309B69004E132B /* BlorPasswordRetriever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlorPasswordRetriever.h; sourceTree = "<group>"; };
@@ -462,7 +452,6 @@
 		21B1C170110764570004A7D0 /* statusInProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = statusInProgress.png; path = Images/statusInProgress.png; sourceTree = "<group>"; };
 		21B548F8112F307E00E163A1 /* NotationDirectoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotationDirectoryManager.m; sourceTree = "<group>"; };
 		21B548F9112F307E00E163A1 /* NotationDirectoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotationDirectoryManager.h; sourceTree = "<group>"; };
-		21B54C011134F2E800E163A1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		21B64A2412E61FA700D87EFC /* LabelColumnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelColumnCell.h; sourceTree = "<group>"; };
 		21B64A2512E61FA700D87EFC /* LabelColumnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelColumnCell.m; sourceTree = "<group>"; };
 		21B64C4D12E62A5700D87EFC /* UnifiedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnifiedCell.m; sourceTree = "<group>"; };
@@ -474,7 +463,6 @@
 		21C737940B50C73E0048C08A /* MultiplePageView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MultiplePageView.m; sourceTree = "<group>"; };
 		21CB29AD10EEE39400360118 /* SyncServiceSessionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncServiceSessionProtocol.h; sourceTree = "<group>"; };
 		21CF80F210FD33B90094AA90 /* SynchronizedNoteMixIns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronizedNoteMixIns.h; sourceTree = "<group>"; };
-		21D5834D0B78F0CC00245E29 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
 		21D60126098FDB46007440DF /* GlobalPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalPrefs.h; sourceTree = "<group>"; };
 		21D60127098FDB46007440DF /* GlobalPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalPrefs.m; sourceTree = "<group>"; };
 		21D6F7ED12E0C751005C2DA5 /* AppController_Importing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController_Importing.h; sourceTree = "<group>"; };
@@ -522,12 +510,9 @@
 		21F1CD970B3A3F77001FB5F6 /* PTHotKey.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PTHotKey.m; path = PTHotKeys/PTHotKey.m; sourceTree = "<group>"; };
 		21F1CDAB0B3A401F001FB5F6 /* PTKeyCombo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PTKeyCombo.h; path = PTHotKeys/PTKeyCombo.h; sourceTree = "<group>"; };
 		21F1CDAC0B3A401F001FB5F6 /* PTKeyCombo.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PTKeyCombo.m; path = PTHotKeys/PTKeyCombo.m; sourceTree = "<group>"; };
-		21F4599B0A92E01C00FB6FFE /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		21FF94F50B5AD23B00DB6A2F /* ExporterManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ExporterManager.m; sourceTree = "<group>"; };
 		21FF94F60B5AD23B00DB6A2F /* ExporterManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ExporterManager.h; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Notation_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notation_Prefix.pch; sourceTree = "<group>"; };
 		57F27F7A11973A7F00C63ACF /* Notation.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Notation.sdef; sourceTree = "<group>"; };
 		57F27FB71197407400C63ACF /* SearchCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCommand.h; sourceTree = "<group>"; };
@@ -547,8 +532,6 @@
 		5C2CC189134989D7006FFE56 /* nvMenuDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nvMenuDark.png; path = Images/nvMenuDark.png; sourceTree = "<group>"; };
 		5C2CD035132ED47900CA0D7C /* ETScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETScrollView.h; sourceTree = "<group>"; };
 		5C2CD036132ED47900CA0D7C /* ETScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETScrollView.m; sourceTree = "<group>"; };
-		5C367EE81DA2C06F0043C8EC /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		5C367F3C1DA2C2B20043C8EC /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 		5C38E2C214223D6900131682 /* ETOverlayScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETOverlayScroller.h; sourceTree = "<group>"; };
 		5C38E2C314223D6900131682 /* ETOverlayScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETOverlayScroller.m; sourceTree = "<group>"; };
 		5C43665C1DA267130086FF84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -780,6 +763,21 @@
 		5CF96CD9132EA1970079B3FD /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = de; path = de.lproj/URLGetter.nib; sourceTree = "<group>"; };
 		5CFF810713A52EE2008A93A3 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5CFF810913A536F7008A93A3 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/Preferences.xib; sourceTree = "<group>"; };
+		7134C15122F4F7BB0000104D /* nvALT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nvALT.entitlements; sourceTree = "<group>"; };
+		7134C15222F4FE450000104D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		7134C15422F4FE5C0000104D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7134C15622F4FE6A0000104D /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = System/Library/Frameworks/SecurityInterface.framework; sourceTree = SDKROOT; };
+		7134C15822F4FE8F0000104D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7134C15A22F4FE9B0000104D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7134C15E22F4FEC30000104D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7134C16022F4FED70000104D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7134C16322F4FED70000104D /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = ../../../../System/Library/Frameworks/CoreServices.framework; sourceTree = "<group>"; };
+		7134C16422F4FED70000104D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = ../../../../System/Library/Frameworks/Carbon.framework; sourceTree = "<group>"; };
+		7134C16522F4FED70000104D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = ../../../../System/Library/Frameworks/WebKit.framework; sourceTree = "<group>"; };
+		7134C16622F4FF070000104D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7134C16722F4FF2F0000104D /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		7134C16822F4FF2F0000104D /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		7134C16922F4FF5D0000104D /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* nvALT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nvALT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93099627138BD61000368C45 /* tp2md.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = tp2md.rb; sourceTree = "<group>"; };
@@ -836,20 +834,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				21F459AD0A92E01D00FB6FFE /* Carbon.framework in Frameworks */,
-				214493F60ADB892C00E2A2B6 /* CoreServices.framework in Frameworks */,
-				214495030ADC7C8D00E2A2B6 /* SecurityInterface.framework in Frameworks */,
-				21973FF10B0060C80046683E /* Security.framework in Frameworks */,
-				210C07530B6BF0A2005D23A8 /* WebKit.framework in Frameworks */,
-				21D583620B78F0CC00245E29 /* ApplicationServices.framework in Frameworks */,
-				219D254A1113FE34005E7DF5 /* SystemConfiguration.framework in Frameworks */,
-				21B54C021134F2E800E163A1 /* IOKit.framework in Frameworks */,
+				7134C15922F4FE8F0000104D /* AppKit.framework in Frameworks */,
 				93365DDF1D9AD651005A230B /* AutoHyperlinks.framework in Frameworks */,
-				5C367EE91DA2C06F0043C8EC /* libcrypto.a in Frameworks */,
-				5C367F3D1DA2C2B20043C8EC /* libssl.a in Frameworks */,
+				7134C16B22F4FF790000104D /* Carbon.framework in Frameworks */,
+				7134C15F22F4FEC30000104D /* Cocoa.framework in Frameworks */,
+				7134C17122F4FF9C0000104D /* libcrypto.a in Frameworks */,
+				7134C17022F4FF9A0000104D /* libssl.a in Frameworks */,
+				7134C16F22F4FF980000104D /* libz.tbd in Frameworks */,
+				7134C16C22F4FF790000104D /* CoreServices.framework in Frameworks */,
+				7134C15B22F4FE9B0000104D /* Foundation.framework in Frameworks */,
+				7134C15322F4FE450000104D /* IOKit.framework in Frameworks */,
+				7134C15D22F4FEAA0000104D /* SecurityInterface.framework in Frameworks */,
 				5C8BCF6A1DA25C810036FA7E /* Sparkle.framework in Frameworks */,
-				2191926709C52AA600586B15 /* libz.dylib in Frameworks */,
+				7134C16D22F4FF790000104D /* SystemConfiguration.framework in Frameworks */,
+				7134C16E22F4FF790000104D /* WebKit.framework in Frameworks */,
+				7134C16A22F4FF5D0000104D /* ApplicationServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -942,36 +941,6 @@
 				21A73DC7099712A8009F8A6C /* WALController.m */,
 			);
 			name = Classes;
-			sourceTree = "<group>";
-		};
-		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
-			);
-			name = "Linked Frameworks";
-			sourceTree = "<group>";
-		};
-		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5C367F3C1DA2C2B20043C8EC /* libssl.a */,
-				5C367EE81DA2C06F0043C8EC /* libcrypto.a */,
-				93365DDE1D9AD651005A230B /* AutoHyperlinks.framework */,
-				21B54C011134F2E800E163A1 /* IOKit.framework */,
-				213623E50B92AA4E008C0830 /* Sparkle.framework */,
-				210C07230B6BF0A1005D23A8 /* WebKit.framework */,
-				21973FBC0B0060C80046683E /* Security.framework */,
-				214494F80ADC7C8D00E2A2B6 /* SecurityInterface.framework */,
-				214493E70ADB892C00E2A2B6 /* CoreServices.framework */,
-				21F4599B0A92E01C00FB6FFE /* Carbon.framework */,
-				21D5834D0B78F0CC00245E29 /* ApplicationServices.framework */,
-				2191926609C52AA600586B15 /* libz.dylib */,
-				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
-				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
-				219D25491113FE34005E7DF5 /* SystemConfiguration.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -1254,6 +1223,7 @@
 		29B97314FDCFA39411CA2CEA /* Notation */ = {
 			isa = PBXGroup;
 			children = (
+				7134C15122F4F7BB0000104D /* nvALT.entitlements */,
 				5C6802051DAD6CCA00713DF0 /* disabled/old classes */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -1334,8 +1304,22 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
-				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				7134C16922F4FF5D0000104D /* ApplicationServices.framework */,
+				7134C16822F4FF2F0000104D /* libcrypto.a */,
+				7134C16722F4FF2F0000104D /* libssl.a */,
+				7134C16622F4FF070000104D /* libz.tbd */,
+				7134C15822F4FE8F0000104D /* AppKit.framework */,
+				93365DDE1D9AD651005A230B /* AutoHyperlinks.framework */,
+				7134C16422F4FED70000104D /* Carbon.framework */,
+				7134C15E22F4FEC30000104D /* Cocoa.framework */,
+				7134C16322F4FED70000104D /* CoreServices.framework */,
+				7134C15A22F4FE9B0000104D /* Foundation.framework */,
+				7134C15222F4FE450000104D /* IOKit.framework */,
+				7134C15422F4FE5C0000104D /* Security.framework */,
+				7134C15622F4FE6A0000104D /* SecurityInterface.framework */,
+				213623E50B92AA4E008C0830 /* Sparkle.framework */,
+				7134C16022F4FED70000104D /* SystemConfiguration.framework */,
+				7134C16522F4FED70000104D /* WebKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1461,17 +1445,11 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = elasticthreads;
-				TargetAttributes = {
-					8D1107260486CEB800E47090 = {
-						DevelopmentTeam = 47TRS7H4BH;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 212B842709780B5000F3597F /* Build configuration list for PBXProject "Notation" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -2111,18 +2089,47 @@
 		212B842409780B5000F3597F /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_ATOMIC_IMPLICIT_SEQ_CST = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_FLOAT_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CODE_SIGN_ENTITLEMENTS = nvALT.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 47TRS7H4BH;
+				DEVELOPMENT_TEAM = E54RQ2YKR5;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				LD_RUNPATH_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = net.elasticthreads.nv;
-				VALID_ARCHS = x86_64;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.roman.nv;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Development;
 		};
@@ -2131,12 +2138,20 @@
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -2156,7 +2171,6 @@
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_FAST_MATH = YES;
-				GCC_FAST_OBJC_DISPATCH = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 1;
@@ -2203,7 +2217,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_GENERATE_MAP_FILE = YES;
 				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/openssl/1.0.2/lib/;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-pg";
 				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
@@ -2211,7 +2225,6 @@
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = NO;
-				VALID_ARCHS = x86_64;
 				VERSION_INFO_BUILDER = "David Halter";
 				WARNING_LDFLAGS = "-pg";
 				WRAPPER_EXTENSION = app;
@@ -2219,124 +2232,25 @@
 			};
 			name = Development;
 		};
-		5C45D996196C95A9004C55F8 /* ForBuilding 10.6 */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				DEAD_CODE_STRIPPING = YES;
-				DEPLOYMENT_POSTPROCESSING = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"";
-				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
-				GCC_DEBUGGING_SYMBOLS = full;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_FAST_MATH = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PFE_FILE_C_DIALECTS = "c objective-c";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Notation_Prefix.pch;
-				GCC_THREADSAFE_STATICS = NO;
-				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
-				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
-				GCC_VERSION = "";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_GLOBAL_CONSTRUCTORS = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
-				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
-				GCC_WARN_MISSING_PARENTHESES = YES;
-				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
-				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_LABEL = YES;
-				GCC_WARN_UNUSED_PARAMETER = NO;
-				GCC_WARN_UNUSED_VALUE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					ICU/icu,
-					"$(PROJECT_DIR)/library/**",
-				);
-				INFOPLIST_FILE = Info.plist;
-				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/openssl/1.0.2/lib/;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
-				PRODUCT_NAME = nvALT;
-				SDKROOT = macosx;
-				SECTORDER_FLAGS = (
-					"-sectorder",
-					__TEXT,
-					__text,
-					Notation.launchorder,
-					"-e",
-					start,
-				);
-				VALID_ARCHS = x86_64;
-				VERSION_INFO_BUILDER = "David Halter";
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
-			};
-			name = "ForBuilding 10.6";
-		};
-		5C45D997196C95A9004C55F8 /* ForBuilding 10.6 */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 47TRS7H4BH;
-				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				LD_RUNPATH_SEARCH_PATHS = "";
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = net.elasticthreads.nv;
-				VALID_ARCHS = x86_64;
-			};
-			name = "ForBuilding 10.6";
-		};
 		5C9CB58B134A7F0400073277 /* ForBuilding */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -2396,7 +2310,7 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/openssl/1.0.2/lib/;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
 				PRODUCT_NAME = nvALT;
 				SDKROOT = macosx;
@@ -2406,7 +2320,6 @@
 					__text,
 					Notation.launchorder,
 				);
-				VALID_ARCHS = x86_64;
 				VERSION_INFO_BUILDER = "David Halter";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
@@ -2416,18 +2329,45 @@
 		5C9CB58C134A7F0400073277 /* ForBuilding */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = NO;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_ATOMIC_IMPLICIT_SEQ_CST = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_FLOAT_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CODE_SIGN_ENTITLEMENTS = nvALT.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 47TRS7H4BH;
+				DEVELOPMENT_TEAM = E54RQ2YKR5;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				LD_RUNPATH_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = net.elasticthreads.nv;
-				VALID_ARCHS = x86_64;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.roman.nv;
 			};
 			name = ForBuilding;
 		};
@@ -2438,7 +2378,6 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C9CB58C134A7F0400073277 /* ForBuilding */,
-				5C45D997196C95A9004C55F8 /* ForBuilding 10.6 */,
 				212B842409780B5000F3597F /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2448,7 +2387,6 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C9CB58B134A7F0400073277 /* ForBuilding */,
-				5C45D996196C95A9004C55F8 /* ForBuilding 10.6 */,
 				212B842809780B5000F3597F /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;

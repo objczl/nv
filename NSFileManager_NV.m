@@ -17,6 +17,7 @@
 
 
 #import "NSFileManager_NV.h"
+#import <sys/xattr.h>
 
 
 @implementation NSFileManager (NV)
@@ -101,7 +102,7 @@
 	const char* inKeyNameC = "com.apple.metadata:kMDItemOMUserTags";
 	// retrieve data from store. 
 	char* data[kMaxDataSize];
-	ssize_t dataSize = kMaxDataSize; // ssize_t means SIGNED size_t as getXattr returns - 1 for no attribute found
+	size_t dataSize = kMaxDataSize; // ssize_t means SIGNED size_t as getXattr returns - 1 for no attribute found
 	NSData* nsData = nil;
 	if ((dataSize = getxattr(path, inKeyNameC, data, dataSize, 0, 0)) > 0) {
 		nsData = [NSData dataWithBytes:data	length:dataSize];

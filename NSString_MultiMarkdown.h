@@ -5,7 +5,7 @@
 //  Created by Christian Tietze on 2010-10-10.
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 @class AppController;
 @class NoteObject;

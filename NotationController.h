@@ -16,12 +16,12 @@
      or promote products derived from this software without specific prior written permission. */
 
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 #import "FastListDataSource.h"
 #import "LabelsListController.h"
 #import "WALController.h"
 
-#import <CoreServices/CoreServices.h>
+@import CoreServices;
 
 //enum { kUISearch, kUINewNote, kUIDeleteNote, kUIRenameNote, kUILabelOperation };
 

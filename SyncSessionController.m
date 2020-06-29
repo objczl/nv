@@ -22,7 +22,7 @@
 #import "NotationDirectoryManager.h"
 #import "SimplenoteSession.h"
 
-//#import <IOKit/IOMessage.h>
+#import <IOKit/pwr_mgt/IOPMLib.h>
 
 NSString *SyncSessionsChangedVisibleStatusNotification = @"SSCVSN";
 
@@ -68,8 +68,8 @@ static void SleepCallBack(void *refcon, io_service_t y, natural_t messageType, v
 	return syncDelegate;
 }
 
-static void SleepCallBack(void *refcon, io_service_t y, natural_t messageType, void * messageArgument) {
-	
+static void SleepCallBack(void *refcon, io_service_t y, uint32_t messageType, void * messageArgument) {
+    
     SyncSessionController *self = (SyncSessionController*)refcon;
 	InvocationRecorder *invRecorder = nil;
 	
@@ -104,7 +104,8 @@ static void SleepCallBack(void *refcon, io_service_t y, natural_t messageType, v
 }
 - (void)_registerPowerChangeCallbackIfNecessary {
 	if (!notifyPortRef) {
-		if ((fRootPort = IORegisterForSystemPower((void*)self, &notifyPortRef, SleepCallBack, &deregisteringNotifier))) {
+        fRootPort = IORegisterForSystemPower((__bridge void*)self, &notifyPortRef, SleepCallBack, &deregisteringNotifier);
+		if (fRootPort) {
 			CFRunLoopAddSource(CFRunLoopGetCurrent(), IONotificationPortGetRunLoopSource(notifyPortRef), kCFRunLoopCommonModes);
 			//NSLog(@"registered for power change under port %X", fRootPort);
 		} else {

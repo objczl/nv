@@ -5,7 +5,7 @@
 //  Created by elasticthreads on 8/15/11.
 //
 
-#import <AppKit/AppKit.h>
+@import AppKit;
 
 #define kTextMargins 50.0
 

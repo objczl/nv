@@ -7,7 +7,7 @@
 //	Some Rights Reserved under the Creative Commons Attribution License, version 2.5, and/or the MIT License.
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 @class RBSplitView;
 

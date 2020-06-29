@@ -16,7 +16,7 @@
      or promote products derived from this software without specific prior written permission. */
 
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 #import "SynchronizedNoteProtocol.h"
 #include <sys/types.h>
 #include <zlib.h>

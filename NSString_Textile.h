@@ -3,7 +3,7 @@
 //  http://github.com/gjherbiet/nv/blob/0da680c487c0f7c277e35a9308ebf50535e7ee06/NSString-Textile.h
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 @class AppController;
 @class NoteObject;

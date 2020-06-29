@@ -8,7 +8,7 @@
 
 #import "PTKeyCombo.h"
 
-#import <Carbon/Carbon.h>
+@import Carbon;
 
 @implementation PTKeyCombo
 

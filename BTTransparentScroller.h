@@ -9,7 +9,7 @@
 //
 // Modified again by ElasticThreads on 03/10/11
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 #import "ETTransparentScroller.h"
 
 @interface BTTransparentScroller : ETTransparentScroller {

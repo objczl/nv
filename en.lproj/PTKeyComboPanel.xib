@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14854.2" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14854.2"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="PTKeyComboPanel">
@@ -19,13 +20,13 @@
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="290" y="345" width="394" height="165"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
             <value key="minSize" type="size" width="213" height="107"/>
             <view key="contentView" id="20">
                 <rect key="frame" x="0.0" y="0.0" width="394" height="165"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textField verticalHuggingPriority="750" id="22">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="22">
                         <rect key="frame" x="152" y="60" width="173" height="22"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="none" drawsBackground="YES" id="54">
@@ -34,7 +35,7 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <button verticalHuggingPriority="750" id="23">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="23">
                         <rect key="frame" x="130" y="12" width="84" height="32"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <buttonCell key="cell" type="push" title="None" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="55">
@@ -45,7 +46,7 @@
                             <action selector="clear:" target="-2" id="34"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" id="24">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="24">
                         <rect key="frame" x="214" y="12" width="82" height="32"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="56">
@@ -56,7 +57,7 @@
                             <action selector="cancel:" target="-2" id="51"/>
                         </connections>
                     </button>
-                    <textField verticalHuggingPriority="750" id="26">
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="26">
                         <rect key="frame" x="69" y="90" width="308" height="55"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Press a key combination to %@." id="57">
@@ -65,7 +66,7 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="27">
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="27">
                         <rect key="frame" x="69" y="62" width="81" height="17"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Keystroke:" id="58">
@@ -74,7 +75,7 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <button verticalHuggingPriority="750" id="28">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="28">
                         <rect key="frame" x="296" y="12" width="84" height="32"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="59">
@@ -85,7 +86,7 @@
                             <action selector="ok:" target="-2" id="31"/>
                         </connections>
                     </button>
-                    <button id="33" customClass="PTKeyBroadcaster">
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="33" customClass="PTKeyBroadcaster">
                         <rect key="frame" x="44" y="60" width="22" height="20"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <string key="toolTip">
@@ -97,7 +98,7 @@ http://www.rogueamoeba.com/
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
-                    <imageView id="48">
+                    <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="48">
                         <rect key="frame" x="20" y="113" width="32" height="32"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" image="PTKeyboardIcon" id="61"/>
@@ -107,6 +108,7 @@ http://www.rogueamoeba.com/
             <connections>
                 <outlet property="initialFirstResponder" destination="33" id="52"/>
             </connections>
+            <point key="canvasLocation" x="139" y="147"/>
         </window>
     </objects>
     <resources>

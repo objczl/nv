@@ -8,7 +8,7 @@
 
 #import "PTKeyBroadcaster.h"
 #import "PTKeyCombo.h"
-#import <Carbon/Carbon.h>
+@import Carbon;
 
 NSString* PTKeyBroadcasterKeyEvent = @"PTKeyBroadcasterKeyEvent";
 

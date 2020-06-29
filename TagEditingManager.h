@@ -5,7 +5,7 @@
 //  Created by elasticthreads on 10/15/10.
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 
 @interface TagEditingManager : NSObject <NSWindowDelegate> {
